@@ -1,7 +1,35 @@
-h1 {
-    color: red;
-}
+
 
 body {
-    background-color: chartreuse;
+    background-color: lightgrey;
+    font-size: 20px;
+    height: 100%;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    border: solid 1px green;
+    padding: 20px;
+}
+
+.flex-item {
+    border: dotted 2px red;
+    padding: 20px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/developer.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
 }
